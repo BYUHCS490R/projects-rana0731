@@ -1,5 +1,18 @@
-p {
-  color: palevioletred;
-  font-size: 14px;
+main p {
+    color: palevioletred;
+    font-size: 14px;
    font-family: courier;
 }
+header, footer {
+    background-color: pink;
+    padding: 5px;
+}
+main {
+    background-color: black;
+    padding: 5px;
+}
+h3 {
+    color:white
+}
+
+/* main p is selector. p tag of main selection*/
