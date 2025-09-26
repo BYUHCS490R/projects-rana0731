@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginning CSS</title>
+    <style>
+        h2 {color:deeppink;  border: 2px solid powderblue;}
+        
+    </style>
+    <!-- Embedded CSS -->
+
+     <link rel="stylesheet" href="styles.css">
+     <!-- External -->
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1> 
+    </header>
+    <nav>
+        links links links
+    </nav>
+    <main>
+        <h1 style="color:powderblue; font-family: cursive;">Beginning CSS </h1>
+        <!-- Inline CSS -->
+
+        <h2>1. Explain the difference between inline, embedded, and external CSS.</h2>
+        <h3>Inline CSS</h3>
+        <p>Write directly inside p tag using the style attribute. style="color: blue;"</p>
+        <h3>Embedded (Internal) CSS</h3>
+        <p>Write inside the style tag in the head section of an HTML file. p {color: blue;}</p>
+        <h3>External CSS</h3>
+        <p>Write in a separate .css file p {color: blue;} and linked to the HTML using link tag in head section.</p>
+
+        <h2>2. Explain why you should only use external CSS.</h2>
+        <p>Using separate CSS will be organized. CSS file for only style and HTML file only for content</p>
+
+        <h2>3. What is a selector used for?</h2>
+        <p>A CSS selector is used to target HTML elements such as tags (p), id or class. And will style only that selected HTML elements.</p>
+        <p>p { color: blue; }    Style all p elements.</p>
+    </main>
+    <footer>
+        <h5>&copy; Anar Fuxiang</h5>
+    </footer>
+    
+</body>
+</html>
