@@ -1,0 +1,15 @@
+#titleMain {
+    font-family:fantasy;
+    color: fuchsia;
+}
+
+.questions {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:violet;
+}
+
+.span {
+    font-weight: 800;
+    font-style:oblique;
+    color: olivedrab;
+}

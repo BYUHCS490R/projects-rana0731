@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <link rel="stylesheet" href="selector.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+        <nav>
+            link link link
+        </nav>
+    </header>
+    <main>
+        <h1 id="titleMain">CSS Selector</h1>
+        <!-- ID selector. it only style this title with h1 tag -->
+
+        <h3 class="questions">1. List out the different ways to select an item.</h3>
+        <!--  Class selector. it style multiple elements where this question class were wrote. -->
+        <p>Element(tagname) selector, ID selector, Class selector, Universal selector (*), Child selector</p>
+
+        <h3 class="questions">2. What is the difference between an ID and a Class?</h3>
+        
+        <div>
+        <!-- Example DIV -->
+            <p><strong>ID</strong> can be used for only one element and must be unique title</p>
+            <p> h1 id="unique-title">Welcome to My Page /h1 </p>
+            <p><strong>Class </strong> can be used by multiple elements.</p>
+            <p> p class="highlight">This paragraph is highlighted. /p
+            <br/> p class="highlight">This is another highlighted paragraph. /p </p>
+        </div>
+
+        <h3 class="questions">3. What is the difference between a SPAN tag and a DIV tag?</h3>
+        <ul>
+            <li>
+                <span class="span">DIV </span> 
+                <!-- Example span -->
+                Block-level element.Starts on a new line, takes full width.Used for larger sections/containers.
+                <br/>div class="container" > This is a section. /div
+            </li>
+            <li>
+                <span class="span">SPAN </span>Inline element.Does not start a new line, fits within text.Used for styling specific parts of text.<br/> p This is a span class="highlight" > highlighted</span> word. /p
+            </li>
+        </ul>
+        <h3 class = "questions">4. What is the difference between a DIV tag and a HEADER, MAIN, or FOOTER?</h3>
+        <p> DIV. Used only for grouping and styling content. While header main footer are structural(section) tags. </p>
+
+        <h3 class = "questions">5. What are the different ways to select a color?</h3>
+        <ul>
+            <li>Hex Codes (A # and then 6 hex characters. Example #F5A4D3) </li>
+            <li>Hex Short Codes (A shortcut with only 3 Hex characters. Example #FDA = #FFDDAA)</li>
+            <li>Color Names </li>
+            <li>RGB Values rgb(red, green, blue)</li>
+            <li>RGBA Values rgba(red, green, blue, alpha)</li>
+            <li>HSL Values hsl(hue, saturation, lightness)</li>
+            <li>HSLA Values hsla(hue, saturation, lightness, alpha)</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy 2025 Anar Fuxiang</p>
+    </footer>
+</body>
+</html>
