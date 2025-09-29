@@ -1,6 +1,6 @@
 #titleMain {
     font-family:fantasy;
-    color: fuchsia;
+    color:hotpink;
 }
 
 .questions {
@@ -11,5 +11,9 @@
 .span {
     font-weight: 800;
     font-style:oblique;
-    color: olivedrab;
+    color:bisque;
+}
+
+body {
+    background-color: darkolivegreen;
 }
