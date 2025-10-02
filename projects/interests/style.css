@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(247, 104, 176);
+}
+#interests {
+    background-color: rgb(249, 249, 149);
+    margin:-10px;
+    padding: 10px;
+}
+#hero {
+    background-color: rgb(247, 218, 218);
+    margin:-10px;
+    padding: 10px;
+}
+
+.title1 {
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+    color: rgb(64, 147, 230);
+}
+.title2 {
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+    color: maroon;
+}
+
+a {
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;;
+}
+
+nav {
+    font-size:larger;
+}
+
+.italic {
+    font-style: oblique;
+}
+
+.emphasize {
+    color:rgb(244, 50, 147);
+    font-weight: 800;
+}
+
+.deEmphasize {
+    color:rgb(247, 104, 176);
+}
+
+#questions {
+    background-color: rgb(181, 214, 247);
+    padding: 5px;
+}
+
