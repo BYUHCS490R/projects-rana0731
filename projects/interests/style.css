@@ -1,6 +1,7 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:rgb(247, 104, 176);
+    font-size: medium;
 }
 #interests {
     background-color: rgb(249, 249, 149);
