@@ -1,0 +1,15 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 14px;
+    color: pink;
+    background-color: rgb(94, 126, 50);
+}
+
+#beach {
+    height: 700px;
+}
+
+p {
+    font-size: 16px;
+}
