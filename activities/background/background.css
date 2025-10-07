@@ -1,0 +1,26 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:salmon;
+    background-image: url(bg1.jpg);
+    background-repeat:repeat;
+}
+
+header{
+    background-image: url('deco.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+}
+.list {
+    list-style-image: url(bullet.png);
+    color: olive;
+}
+
+.current {
+    color:olive;
+}
+
+a {
+    color:rgb(128, 35, 24);
+}
+
