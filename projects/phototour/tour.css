@@ -1,0 +1,27 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color:hsl(331, 100%, 35%);
+    background-image: url(bg.jpg);
+    background-repeat:repeat;
+}
+nav a{
+    color:rgb(181, 68, 75);
+}
+.current {
+    color:rgb(223, 11, 95);
+}
+
+.list {
+    list-style-image: url(bullet.png);
+    color: rgb(74, 2, 31);
+    font-size: 18px;
+}
+
+#indexmain {
+    background-image: url('asia.jpg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 400px;
+
+}
