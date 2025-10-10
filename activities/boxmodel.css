@@ -1,0 +1,25 @@
+body {
+    font-family: cursive;
+
+}
+
+header {
+    background-color: darkkhaki;
+
+}
+
+header h1 {
+    background-color: khaki;
+}
+
+nav {
+    background-color: darksalmon;
+}
+
+div {
+    background-color:darkturquoise;
+    margin: 30px;
+    border: 10px solid hotpink;
+    padding: 40px;
+    text-align: center;
+}
