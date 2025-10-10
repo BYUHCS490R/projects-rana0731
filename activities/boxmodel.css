@@ -26,6 +26,7 @@ div {
 
 h3{
     border: 2px solid pink;
-    padding: 20px 10px 5px 50px;
+    padding: 20px 150px 5px 50px;
     /* top right bottom left*/
+    width:fit-content;
 }
