@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <link rel="stylesheet" href="positioning.css">
+</head>
+<body>
+    <header>
+        <h1>Web Page</h1>
+    </header>
+    <main>
+        <h2>Positioning</h2>
+
+        <h3>1. What is normal flow in HTML?</h3>
+        <p>Normal Flow is HTML elements are laid out on a page. Block-level elements (like div, p, h1) Inline elements (like span, a, strong) </p>
+
+        <figure class="temple floater">
+            <img src="temple.jpg" alt="Laie Temple">
+            <figcaption>Laie Hawaii Temple</figcaption>
+        </figure>
+        <h3>2. What does float do? Why do you need to clear the float?</h3>
+        <p>The float property allows an image or a div to be taken out of normal flow and pushed to the left or right.</p>
+        <p>Temple pic is example of float:right</p>
+        <div class="stop"></div>
+
+        
+        <h3>3. What do absolute, fixed, and relative do?</h3>
+        <p>These are values for the position property in CSS.</p>
+        <p>3.1. Positions the element relative to its normal position. Doesn’t remove it from flow.</p>
+        <figure class="temple relative">
+            <img src="temple.jpg" alt="Laie Temple">
+            <figcaption>Position Relative</figcaption>
+        </figure> 
+        <br>
+        <p>3.2. Positions the element relative to its closest positioned ancestor (not static). Removes it from normal flow.</p>
+        <figure class="temple absolute">
+            <img src="temple.jpg" alt="Laie Temple">
+            <figcaption>Position Absolute</figcaption>
+        </figure> 
+        
+        <!-- lorem text is just for pic space -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta necessitatibus dicta corporis voluptates laborum dolor quo! Earum ullam quis perferendis cum obcaecati repudiandae minima qui saepe ipsum neque, error voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id beatae quisquam aliquam pariatur. Exercitationem a vitae voluptatum repellat explicabo incidunt, similique unde distinctio, iusto quos sunt rerum optio, id qui? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex culpa nihil quod quam suscipit sunt reprehenderit labore veniam aut deleniti, molestiae illo excepturi natus alias voluptates voluptate delectus debitis dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolor iusto non animi debitis iste nostrum, vero delectus quasi nesciunt consectetur ducimus repudiandae enim consequuntur cupiditate in corporis obcaecati quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magni eligendi laborum nisi animi necessitatibus fugit ex adipisci nemo nulla ducimus quod itaque tempore rerum quam numquam, ab saepe id. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti cum quam nam temporibus totam optio porro nihil, rerum culpa error! Quidem dolores quos maxime voluptate at error omnis dolor dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet</p>
+
+
+        
+        <p style="margin-top: 300px;">3.3. Positions the element relative to the viewport (browser window). It stays in place even when scrolling.</p>
+        <figure class="temple fixed">
+            <img src="temple.jpg" alt="Laie Temple">
+            <figcaption>Temple fixed</figcaption>
+        </figure> 
+
+
+
+        <h3>4. How can you make nice navigation buttons for mobile devices?</h3>
+        <p>We use padding margin border and add border color or background color. And add display:flex, flex-direction:row; </p>
+            <nav class="mobile-nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+
+        <h3>5. Where can you find videos to review what we talked about in class?</h3>
+        <p>In the modules section of the CS140 course.</p>
+        
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 Anar Fuxiang</p>
+    </footer>
+</body>
+</html>

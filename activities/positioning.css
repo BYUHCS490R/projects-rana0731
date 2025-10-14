@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 140, 255);
+
+    height:2500px;
+}
+
+.temple {
+    border: thin solid black;
+    width: 500px;
+}
+
+.relative {
+    position: relative;
+    top:20px;
+    left:50px;
+    z-index: -1; 
+    /* z-index ni layer, -1 picture is behind the text*/
+}
+
+
+.absolute {
+    position: absolute;
+    left:50px;
+    z-index: 1; 
+    /* z-index ni layer, -1 picture is in front of the text*/
+}
+.fixed {
+    position: fixed;
+    left:0;
+    bottom:0;
+    z-index: -2; 
+    /* z-index ni layer, -1 picture is in front of the text*/
+}
+
+.floater {
+    float:right;
+}
+
+
+.temple img{
+    width:100%;
+    
+}
+.stop {
+    clear:both;
+}
+
+
+
+.mobile-nav {
+  display:flex;
+  flex-direction:row;
+  background: #333;
+}
+
+.mobile-nav a {
+  padding: 15px;
+  color: rgb(166, 224, 247);
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+}
