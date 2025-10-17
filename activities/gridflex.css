@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(97, 176, 207);
+}
+.gridContainer{
+    /* parent */
+    display: grid;
+    grid-template-columns: 50px 300px 100px;
+    gap: 10px;
+
+}
+.gridItem{
+    /* child */
+    background-color: rgb(206, 244, 231);
+}
+
+.flexContainer{
+    /* parent */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.flexItem{
+    /* child */
+    background-color: rgb(206, 244, 231);
+    padding:5px 10px;
+
+}
