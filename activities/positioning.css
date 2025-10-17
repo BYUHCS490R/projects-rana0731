@@ -40,12 +40,12 @@ body {
 
 .temple img{
     width:100%;
-    
+
 }
+
 .stop {
     clear:both;
 }
-
 
 
 .mobile-nav {
@@ -54,7 +54,7 @@ body {
   background: #333;
 }
 
-.mobile-nav a {
+.mobile-nav a{
   padding: 15px;
   color: rgb(166, 224, 247);
   text-decoration: none;
