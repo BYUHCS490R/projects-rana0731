@@ -1,0 +1,42 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap ;
+    /* flex-direction:row-reverse;
+    flex-wrap: wrap; */
+}
+.card {
+    border: thin solid #000;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 3px rgb(50, 50, 50, 0.8);
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav a{
+    display: block;
+    margin:5px;
+    padding:10px;
+    width:150px;
+    background-color:cornflowerblue;
+    color:beige;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:cornflowerblue;
+    background-color: beige;
+    text-decoration: underline;
+
+}
+

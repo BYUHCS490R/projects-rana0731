@@ -28,3 +28,23 @@ body {
     padding:5px 10px;
 
 }
+
+#wrapper{
+    display: grid;
+    grid-template-areas: 
+    "top"
+    "middle"
+    "bottom";
+}
+
+header nav{
+    grid-area: top;
+}
+
+main{
+    grid-area: middle;
+}
+
+footer{
+    grid-area:bottom;
+}
