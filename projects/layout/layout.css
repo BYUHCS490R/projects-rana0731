@@ -48,7 +48,6 @@ nav a {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
-
 }
 
 nav a:hover {
@@ -68,9 +67,6 @@ nav a:hover {
     border: 2px solid rgb(249, 156, 212);
     border-radius: 0;
     box-shadow:10px 10px#992466;
-    
-    
-
 }
 
 img {

@@ -1,0 +1,73 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "aside main"
+    "footer footer";
+}
+
+header{grid-area: header;}
+nav {grid-area: nav;}
+aside {grid-area: aside;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+#title {
+    background-color: rgb(151, 169, 200);
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding:10px;
+    width: 100%;
+    background-color:rgb(221, 227, 235);
+    color:rgb(13, 54, 117);
+    text-decoration: none;
+    text-align: center;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    height: min-content ;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.img {
+    color: rgb(13, 54, 117);
+    width: min-content;
+    height: fit-content;
+    padding:10px;
+    margin:30px;
+    border: 2px solid rgb(13, 54, 117);
+    box-shadow:10px 10px 2px rgb(13, 54, 117);
+}
+
+.footerlink {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(4, auto); 
+  gap: 10px; 
+}
+.footerlink a {
+  display: block;
+  text-align: left;
+}
