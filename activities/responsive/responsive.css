@@ -1,0 +1,59 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+header h1 {
+    background-color: rgb(55, 164, 201);
+    margin: 0px;
+    padding:10px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    background-color:rgb(165, 216, 233);
+    
+}
+
+nav a:hover {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color:rgb(67, 135, 180);
+}
+
+
+.main-row {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.card {
+    width:200px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px grey;
+    margin: 5px;
+}
+
+.card img {
+    width: 100%;
+}
