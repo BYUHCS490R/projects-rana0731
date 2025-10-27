@@ -11,6 +11,7 @@ header h1 {
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content:space-evenly;
     
     
@@ -36,7 +37,6 @@ nav a:hover {
 .main-row {
     display: flex;
 }
-
 .sidebar {
     width: 200px;
 }
@@ -56,4 +56,28 @@ nav a:hover {
 
 .card img {
     width: 100%;
+}
+
+
+
+
+
+@media ONLY screen AND (max-width:500px){
+    nav {
+        flex-direction: column;
+    }
+    .main-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card {
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .main-card{
+        order: -1;
+
+    }
 }
