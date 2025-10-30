@@ -1,0 +1,106 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+header h1 {
+    color: rgb(169, 13, 13);
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding:10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-decoration: none;
+    background-color:rgb(169, 13, 13);
+    color: white;
+    
+}
+
+nav a:hover {
+    display: block;
+    text-decoration: none;
+    background-color:rgb(255, 255, 255);
+    color: rgb(169, 13, 13);
+}
+
+
+.main-row {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+figure{
+    margin: 0;
+    width:fit-content;
+    height:fit-content;
+}
+
+img{
+    width: 100%;
+}
+main h2{
+    color: brown;
+}
+
+.row {
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width:200px;
+    box-shadow: 4px 4px 4px rgb(110, 30, 30);
+    margin: 5px;
+    color:brown;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    /* for project 480 */
+    nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card {
+        width: 100%;
+        
+    }
+    .card img {
+        width: 100%;
+        
+    }
+    .sidebar{
+        width: 100%;
+        
+    }
+    
+}

@@ -62,7 +62,8 @@ nav a:hover {
 
 
 
-@media ONLY screen AND (max-width:500px){
+@media ONLY screen AND (max-width:500px){ 
+    /* for project 480 */
     nav {
         flex-direction: column;
     }
