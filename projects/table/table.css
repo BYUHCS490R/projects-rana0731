@@ -1,0 +1,99 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    margin: 0px;
+}
+
+header h1 {
+    background-color:#530c20;
+    color:white;
+    font-style:normal;
+    margin: 0px;
+    padding:10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    background-color:#ac4260;
+    color:white;
+    
+}
+
+nav a:hover {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color:#db6888;
+    color:white;
+}
+
+
+.main-row {
+    display: flex;
+}
+
+main{
+    margin-left: 20px;
+}
+
+.sidebar {
+    margin: 10px;
+    width: 200px;
+}
+
+.album{
+    caption-side:top;
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:80%;
+    font-style:normal;
+}
+
+caption{
+    font-style: italic;
+}
+
+.album th, .album td{
+    border: thin solid #000;
+    padding: 5px;
+}
+
+.album thead tr {
+    background-color: #3b0d0d;
+    color: white;
+}
+
+.album tbody tr:nth-child(1){
+    background-color: #fd96b3;
+} 
+.album tbody tr:nth-child(2){
+    background-color: #fd96b3;
+} 
+.album tbody tr:nth-child(3){
+    background-color: #faa8bf;
+} 
+.album tbody tr:nth-child(4){
+    background-color: #fcc3d3;
+} 
+.album tbody tr:nth-child(5){
+    background-color: #f9d8e1;
+} 
+
+
+.album tfoot tr {
+    background-color: #3b0d0d;
+    color: white;
+}
+.title{
+    font-style: italic;
+}
