@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="print.css" media="screen">
 </head>
 <body>
     <header>
@@ -13,57 +14,60 @@
     <main>
         <h1>Forms</h1>
         <form action="formprocess.html" method="get">
-            <div>
-                <label for="full_name" >Full Name:</label>
-                <input type="text" name="fname" id="full_name">
-            </div>
-            
-            <div>
-                <label for="email">Email: </label> <input type="text" name="email" id="email" value="your@email.com">
-            </div>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="form-row">
+                    <label for="full_name" >Full Name:</label>
+                    <input type="text" name="fname" placeholder="Full Name" id="full_name">
+                </div>
+                
+                <div class="form-row">
+                    <label for="fname">Email: </label> 
+                    <input type="email" name="fullname" id="fname">
+                </div>
 
-            <div>
-                <label for="pass">Password: </label> 
-                <input type="password" name="pass" id="pass">
-            </div>
+                <div class="form-row">
+                    <label for="pass">Password: </label> 
+                    <input type="password" name="pass" id="pass">
+                </div>
 
-            <div>
-                <label for="state">State</label>
-                <select name="state" id="state">
-                    <option value="blank">----</option>
-                    <option value="CA">California</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="UT">Utah</option>
-                </select>
-            </div>
-            <div>
-                <label><input type="checkbox" name="agree">I agree to the terms.</label>
-            </div>
-            <div>
-                Gender:
-                <label><input type="radio" name="gender" value="male">Male</label>
-                <label><input type="radio" name="gender" value="female">Female</label>
-            </div>
-            <div>
-                <label for="comments">Comments</label>
-                <textarea name="comments" id="comments"></textarea>
-            </div>
-            
-            <input type="submit" value="Sign up">
+                <div class="form-row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank">----</option>
+                        <option value="CA">California</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" checked>I agree to the terms</label>
+                </div>
+
+                <div class="check-row">
+                    <div class="spacer">Gender:</div>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="female">Female</label>
+                </div>
+
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments">Hello</textarea>
+                </div>
+                
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign up">
+                </div>
+            </fieldset>
         </form>
 
+        <h3>What are different ways to style your form?</h3>
+        <p>flex, margin, text-align, fieldset-groups related fields together, and legend-gives that group a title.</p>
 
-
-        <h3>The form tag has an "action" attribute. What does it do?</h3>
-        <p>direct where to send the form data when the user submits it</p>
-        <h3>The form tag has a "method" attribute. What does it do?</h3>
-        <p> how the form data is sent to the server, post or get</p>
-        <h3>What is the difference between a "POST" and a "GET"?</h3>
-        <p>get is visible (forms withour answers "fname=&lname=&pass="" will be shown on url ), less secure<br> 
-            post -> add, update, delete, is hidden change (action which is "__.html" will be shown on URL) more secure</p>
-
-
-
+        <h3>How does flex help for both Desktop and Mobile phones?</h3>
+        <p>if it is phone, need to adjust for vertical, @media (max-width: 600px) we can set flex-direction: row, flex-wrap: wrap, align-items:vertical center</p>
     </main>
     <footer>
         <p>&copy; 2025 Anar Fuxiang</p>
