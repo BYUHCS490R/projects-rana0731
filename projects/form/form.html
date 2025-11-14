@@ -13,7 +13,7 @@
     </header>
     <main>
         <h3>Fill out the form to sign up.</h3>
-        <form action="formprocess.html" method="get">
+        <form action="formprocess.html" method="get" id="myForm">
             <fieldset>
                 <legend>Sign Up</legend>
                 <div class="form-row">
@@ -80,5 +80,11 @@
     <footer>
         <p>&copy; 2025 Anar Fuxiang</p>
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+        })
+    </script>
 </body>
 </html>
