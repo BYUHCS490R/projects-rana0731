@@ -3,28 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML tags</title>
+    <title>JavaScript</title>
 </head>
 <body>
-    <h1>Heading 1</h1>
-    <p>Hello class, this is paragraph tag. Whufei can have a lot of fiejioe.</p>
-    <p> Second paragraph</p>
-    This text doesn't belong to tag
-    <br>
-    ejfioejfej
-    <hr>
+    <header>
+        <h1>Web Design Page</h1>
+        <nav>
+            linklink
+        </nav>
+    <main>
+    <form action="formprocess.html" method="get" id="myForm">
+        <h1>Javascript</h1>
+        <h2>1.What is JavaScript? How did it get its name?</h2>
+        <p>JavaScript is a programming language used to make websites interactive. Java language was very popular at the time, then he changed to JavaScript.</p>
 
-    <h2>1.What is JavaScript? How did it get its name?</h2>
-    <p>JavaScript is a programming language used to make websites interactive. Java language was very popular at the time, then he changed to JavaScript.</p>
+        <h3>2. What are the two ways you can run JavaScript?</h3>
+        <p>browser (with HTML) front-end and node.js (server/terminal) backend </p> 
+        
+        <h4>3. What was the most popular front-end js library?</h4>
+        <p> JQuery</p>
 
-    <h3>2. What are the two ways you can run JavaScript?</h3>
-    <p>browser (with HTML) front-end and node.js (server/terminal) backend </p> 
+        <h5>4.What is the most popular front-end js library today?</h5>
+        <p> React</p>
+
+        <div>
+            <input type="submit" value="Sign up">
+        </div>
+    </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy;2025 Anar Fuxiang</p>
+    </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+        })
+    </script>
     
-    <h4>3. What was the most popular front-end js library?</h4>
-    <p> JQuery</p>
-
-    <h5>4.What is the most popular front-end js library today?</h5>
-    <p> React</p>
     
 </body>
 </html>
