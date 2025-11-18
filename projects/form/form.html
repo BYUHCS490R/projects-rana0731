@@ -12,18 +12,19 @@
         <h1>Form Page</h1>
     </header>
     <main>
+        <div id="message"></div>
         <h3>Fill out the form to sign up.</h3>
-        <form action="formprocess.html" method="get" id="myForm">
+        <form action="processing.html" method="get" id="myForm">
             <fieldset>
                 <legend>Sign Up</legend>
                 <div class="form-row">
-                    <label for="full_name" >Full Name:</label>
-                    <input type="text" name="fname" placeholder="Full Name" id="full_name">
+                    <label for="fullname" >Full Name:</label>
+                    <input type="text" name="fullname" placeholder="Full Name" id="fullname">
                 </div>
                 
                 <div class="form-row">
                     <label for="email">Email: </label> 
-                    <input type="email" name="fullname" id="email">
+                    <input type="email" name="email" id="email">
                 </div>
                 <div class="form-row">
                     <label for="age"> Age: </label> 
@@ -75,18 +76,16 @@
                 </div>
             </fieldset>
         </form>
-
+        <h2>What is AJAX?</h2>
+            <p>AJAX is a technique that allows a webpage to request data from a server without reloading the entire page, making websites faster and more interactive.</p>
+        <h2>Why do you put your JS Code in a separate file?</h2>
+            <p>keep the code organized, reusable, and easier to maintain.</p>
     </main>
     <footer>
         <p>&copy; 2025 Anar Fuxiang</p>
     </footer>
 
     <!-- added JAVASCRIPT -->
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event){
-            event.preventDefault();
-            alert("Form Submitted");
-        })
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
