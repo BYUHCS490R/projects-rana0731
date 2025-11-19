@@ -8,10 +8,12 @@ document.getElementById('myForm').addEventListener('submit', function(event){
 
     if (!fullname || email) {
         alert("You need a name and email.");
+        return;
     }
 
     if(!age || age < 18){
         alert("You need to be 18");
+        return;
     }
 
     const formData= {
@@ -38,4 +40,6 @@ document.getElementById('myForm').addEventListener('submit', function(event){
         }
     };
     xhr.send(JSON.stringify(formData));
+    
+    
 });
