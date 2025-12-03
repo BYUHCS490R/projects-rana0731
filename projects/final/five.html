@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="final.css" media="screen">
+</head>
+<body>
+    <header>
+        <h1>K-Pop Universe</h1>
+    </header>
+    <nav>
+        <a href="final.html"  >Home Page</a>
+        <a href="first.html">Ranking</a>
+        <a href="second.html">Male Group</a>
+        <a href="third.html">Female Group</a>
+        <a href="four.html" >Entertainments</a> <!-- TABLE PAGE -->
+        <a href="five.html" class="current">Feedback</a><!-- FORM -->
+
+    </nav>
+    <div class="main-row">
+        <div>
+            <h2>Contents</h2>
+            <div class="column">
+
+                <article class="card">
+                    <img src="cortis.jpg" alt="female">
+                    <h3>Popular Male Group</h3>
+                </article>
+                <article class="card">
+                    <img src="aespa.jpg" alt="male">
+                    <h3>Popular Female Group</h3>
+                </article>
+                
+            </div>
+            
+        </div>
+        <main>
+            <h3>Fill out the form to submit feedback.</h3>
+            <div id="message"></div>
+            <form action="processing.html" method="get" id="myForm">
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <div class="form-row">
+                        <label for="fullname" >Full Name:</label>
+                        <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+                    </div>
+                    
+                    <div class="form-row">
+                        <label for="email">Email: </label> 
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="age"> Age: </label> 
+                        <input type="number" name="age" id="age" min="1" max="130">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="state">Favorite K-pop Group</label>
+                        <select name="state" id="grp">
+                            <option value="BTS">BTS</option>
+                            <option value="BP">BLACKPINK</option>
+                            <option value="COR">Cortis</option>
+                            <option value="AES">Aespa</option>
+                        </select>
+                    </div>
+                    <div class="check-row">
+                        <div class="spacer">Preferred Type of Groups</div>
+                        <label><input type="radio" name="page" value="boy">Boy Group</label>
+                        <label><input type="radio" name="page" value="girl">Girl Group</label>
+                        <label><input type="radio" name="page" value="mix">Mixed Group</label>
+                    
+                    </div>
+                    
+                
+                    <div class="form-row">
+                        <label for="comments1">What do you like most about the site?</label>
+                        <textarea name="comments1" id="comments1"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label for="comments2">Any group or topic you want added?</label>
+                        <textarea name="comments2" id="comments2"></textarea>
+                    </div>
+
+                    <div class="check-row">
+                        <div class="spacer">Page You Most Liked:</div>
+                        <label><input type="radio" name="page" value="first">1</label>
+                        <label><input type="radio" name="page" value="second">2</label>
+                        <label><input type="radio" name="page" value="third">3</label>
+                        <label><input type="radio" name="page" value="fourth">4</label>
+                        <label><input type="radio" name="page" value="fifth">5</label>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="rate"> Rate Our Page </label> 
+                        <input type="number" name="rate" id="rate" min="1" max="5">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="date">Date of Today: </label> 
+                        <input type="date" name="date" id="date">
+                    </div>
+
+                    <div class="check-row">
+                        <div class="spacer"></div>
+                        <label><input type="checkbox" checked>I agree to the terms</label>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="spacer"></div>
+                        <input type="submit" value="Sumit">
+                    </div>
+                </fieldset>
+            </form>
+                    
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2025 Anar Fuxiang</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
